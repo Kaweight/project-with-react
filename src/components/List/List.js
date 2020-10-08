@@ -1,12 +1,12 @@
 import React from 'react';
-import HeroImage from '../Hero/Hero.js'
+import Hero from '../Hero/Hero.js'
 import styles from './List.scss';
 
 class List extends React.Component {
     render() {
         return (
             <section className={styles.component}>
-                <HeroImage />
+                <Hero />
             </section>
         )
     }
