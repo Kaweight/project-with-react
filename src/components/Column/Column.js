@@ -1,23 +1,18 @@
 import React from 'react';
 import styles from './column.scss';
 import PropTypes from 'prop-types';
+import { settings } from '../../data/dataStore';
+import Creator from '../Creator/Creator';
 
 class Column extends React.Component {
     static propTypes = {
-        title1: PropTypes.string,
-        title2: PropTypes.string,
-        title3: PropTypes.string,
+        title: PropTypes.string,
     }
 
     render() {
         return (
             <section className={styles.component}>
-                <h3 className={styles.title}></h3>
-
-                <h3 className={styles.title}>{this.props.title1}</h3>
-                <h3 className={styles.title}>{this.props.title2}</h3>
-                <h3 className={styles.title}>{this.props.title3}</h3>
-
+                <h3 className={styles.title}>{this.props.title}</h3>
             </section >
         )
     }
