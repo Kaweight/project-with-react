@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import List from './List';
-import { getColumnsForList, createActionAddColumn } from '/Kodilla/Moduł_11/project-with-react/src/redux/columnsRedux';
+import { getColumnsForList, createActionAddColumn } from '../../redux/columnsRedux';
 
 
 
