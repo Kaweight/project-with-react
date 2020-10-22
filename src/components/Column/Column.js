@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './column.scss';
+import styles from './Column.scss';
 import PropTypes from 'prop-types';
 import { settings } from '../../data/dataStore';
 import Card from '../Card/Card';
