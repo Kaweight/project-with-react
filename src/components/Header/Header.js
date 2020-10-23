@@ -1,4 +1,4 @@
-import React from 'React';
+import React from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import Container from '../Container/Container';
 import Icon from '../Icon/Icon';
