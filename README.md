@@ -1,1 +1,1 @@
-# https://git.heroku.com/space-organizer.git
+# https://space-organizer.herokuapp.com/
